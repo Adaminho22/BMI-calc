@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>BMI Calculator</title>
+</head>
+<body>
+        <form>
+            <h1>BMI KALKULAATOR</h1>
+            <input id="weight" type="text" placeholder="SINU KAAL - KG" />
+            <br />
+            <br />
+            <input id="height" type="text" placeholder="SINU PIKKUS - CM" />
+            <br />
+            <br />
+            <input class = "submit" type="button"  value="SISESTA" onclick="arvutus()" />
+            <p id="result"> TULEMUS </p>
+            <p id="comment"> KATEGOORIA </p>
+        </form>
+        <p id="cr">&copy; 2020 TOOMAS ADAMSON<p>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+:root {
+    --pastel: rgb(159, 129, 167);
+}
+
+body,html {
+    font-family: 'Pixel';
+    color: black;
+    display:block;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-image: url(imgs/cute.png);
+    background-size: cover;
+    background-position-y: bottom;
+}
+form {
+    font-family: 'Pixel';
+    background-image: url(imgs/cute.png);
+    background-position-y: bottom;
+    background-position-x: 650px;
+    box-shadow: 1px 1px 10px 1px rgb(62, 35, 71);
+    display: block;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 10px;
+    width: 300px;
+    height: 800px;
+}
+input {
+    font-family: 'Pixel';
+    box-shadow: 1px 1px 3px 1px rgb(62, 35, 71);
+    width: 100%;
+    text-align: center;
+}
+
+.submit {
+    display: inline-block;
+    color: white;
+    background-color: rgb(145, 99, 160);
+    margin: 0;
+    padding: 5px;
+    border: 0;
+    width:100%;
+}
+.submit:hover {
+    color: rgb(180, 180, 180);
+    background-color: rgb(62, 35, 71);
+}
+
+#result {
+    box-shadow: 1px 1px 3px 1px rgb(62, 35, 71);
+    padding: 2px;
+    color: rgb(62, 35, 71);
+    width: 100%;
+    text-align: center;
+}
+
+#cr {
+    text-align: center;
+    color: rgb(62, 35, 71);
+}
+
+#comment {
+    box-shadow: 1px 1px 3px 1px rgb(62, 35, 71);
+    padding: 2px;
+    color: rgb(62, 35, 71);
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(62, 35, 71);
+    text-align: center;
+    text-shadow: -2px -2px 5px white; 
+}
+
+@font-face {
+    font-family: Pixel;
+    src: url(../font/VCR_OSD_MONO_1.001.ttf);
+}
